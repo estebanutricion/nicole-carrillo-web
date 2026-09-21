@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#641B3C">
+  <title>Nicole Carrillo | Estrategia y sistemas para negocios</title>
+  <meta name="description" content="Nicole Carrillo convierte negocios desordenados en sistemas claros, vendibles y escalables.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--wine:#641B3C;--magenta:#8F2453;--gold:#C7A15A;--cream:#FFF9F6;--ink:#251820}
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;display:grid;place-items:center;padding:36px 18px;background:radial-gradient(circle at 50% 0%,#f5e1e9 0%,#fff9f6 58%);color:var(--ink);font-family:"DM Sans",sans-serif}
+    main{width:min(100%,490px);text-align:center}
+    .photo{width:164px;height:164px;margin:0 auto 22px;object-fit:cover;object-position:center 27%;border-radius:50%;border:5px solid #fff;box-shadow:0 0 0 2px var(--gold),0 12px 30px #641b3c26}
+    .eyebrow{margin:0 0 8px;color:var(--magenta);font-size:12px;font-weight:700;letter-spacing:1.8px;text-transform:uppercase}
+    h1{margin:0;color:var(--wine);font-family:"Playfair Display",serif;font-size:clamp(38px,8vw,52px);line-height:1.1}
+    .message{max-width:410px;margin:18px auto 30px;font-size:18px;line-height:1.6}
+    .button{display:flex;align-items:center;justify-content:center;min-height:58px;border-radius:16px;background:var(--wine);color:#fff;text-decoration:none;font-weight:700;transition:transform .2s,background .2s}
+    .button:hover,.button:focus-visible{background:var(--magenta);transform:translateY(-2px)}
+    .contact{margin-top:16px;padding:20px;display:flex;align-items:center;gap:16px;text-align:left;border:1px solid #e7d1dc;border-radius:18px;background:#fff;box-shadow:0 10px 30px #641b3c0d}
+    .contact img{width:66px;height:66px;flex:none;object-fit:cover;object-position:center 27%;border-radius:50%}
+    .contact-content{min-width:0;flex:1}
+    .contact strong,.contact span{display:block}
+    .contact strong{color:var(--wine);font-size:17px}
+    .contact span{font-size:13px;color:#655660}
+    .contact a{display:inline-block;margin-top:9px;color:var(--magenta);font-size:14px;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+    .contact a:focus-visible,.button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+    @media(max-width:390px){.contact{padding:15px;gap:12px}.contact img{width:56px;height:56px}}
+  </style>
+</head>
+<body>
+  <main>
+    <img class="photo" src="foto-perfil-nicole.jpeg" alt="Retrato de Nicole Carrillo" width="164" height="164">
+    <p class="eyebrow">Estrategia y sistemas para negocios</p>
+    <h1>Nicole Carrillo</h1>
+    <p class="message">Convierto negocios desordenados en sistemas claros, vendibles y escalables.</p>
+    <a class="button" href="index.html">Conóceme</a>
+    <section class="contact" aria-label="Contacto por WhatsApp Business">
+      <img src="foto-perfil-nicole.jpeg" alt="" width="66" height="66">
+      <div class="contact-content">
+        <strong>Nicole Carrillo</strong>
+        <span>WhatsApp Business</span>
+        <span>+1 (448) 238-3763</span>
+        <a href="https://wa.me/message/4BZDMIJT4UUJF1" target="_blank" rel="noopener noreferrer" aria-label="Escríbeme por WhatsApp Business">Escríbeme por WhatsApp →</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
